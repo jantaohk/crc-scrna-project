@@ -1,5 +1,6 @@
 library(Seurat)
 library(SeuratDisk)
+# download from https://doi.org/10.5281/zenodo.7586957
 obj<- readRDS("C:/Users/Jan/data/INTepi.rds")
 for(col in colnames(obj@meta.data)) {
   obj@meta.data[[col]] <- as.character(obj@meta.data[[col]])
