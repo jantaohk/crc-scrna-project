@@ -11,4 +11,4 @@ Pipeline order
 6. cytotrace preprocessing.ipynb. Must be run before developmental potential scoring.
 7. figure 5.ipynb. Contains cell cycle phase, developmental potential (Cytotrace) and pathway scoring.
 
-Macosko_cell_cycle_genes.txt is the curated gene set for determining cell cycle phase.
+Tirosh_cell_cycle_genes_mouse.txt is the curated gene set for determining cell cycle phase.
